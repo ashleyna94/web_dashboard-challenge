@@ -1,0 +1,67 @@
+.navbar-brand {
+    background-color: lightskyblue;
+    font-weight: bold;
+}
+
+body {
+    background-color: rgb(240, 240, 240);
+    position: relative;
+}
+
+.page-header {
+    color: lightskyblue;
+}
+
+.box {
+    background-color: white;
+    padding: 10px 30px;
+}
+
+.intro {
+    font-size: 16px;
+}
+
+footer {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    border-top: 5px solid;
+    border-top-color: lightskyblue;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header-text {
+    color: lightskyblue;
+    text-align: center;
+}
+
+.img-comparison {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+.big-img {
+    padding: 20px;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    [class*="col-sm-"]
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    [class*="col-md-"]
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    [class*="col-lg-"]
+}
